@@ -14,15 +14,15 @@ lang: ru
 По работе программирую большие контроллеры - ПЛК.
 
 # Языки програмирования:
-1) Object Pascal (Lazarus, Delphi)
-1) C++ (MSVC, GCC, Qt и т. п.)
-1) Java (Android SDK)
-1) Assembler (x86, AVR)
-1) IEC 61131-3 (промышленные контроллеры)
-1) Python
-1) PHP
-1) C#
-1) и другие языки
+* Object Pascal (Lazarus, Delphi)
+* C++ (MSVC, GCC, Qt и т. п.)
+* Java (Android SDK)
+* Assembler (x86, AVR)
+* IEC 61131-3 (промышленные контроллеры)
+* Python
+* PHP
+* C#
+* и другие языки
 
 # Опыт работы с технологиями:
 
