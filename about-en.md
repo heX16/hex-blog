@@ -7,6 +7,13 @@ lang: en
 
 ## Website of the programmer heXor
 
+Link #1: https://hex.name/
+
+Link #2: https://hex16.github.io/
+
+Source: https://github.com/heX16/hex16.github.io
+
+
 I'm programming everything in a row.
 
 As a hobby microcontrollers and automated systems such as "smart house."
@@ -14,15 +21,15 @@ As a hobby microcontrollers and automated systems such as "smart house."
 By work I program large controllers - PLC.
 
 # Programming languages:
-1) Object Pascal (Lazarus, Delphi)
-1) C ++ (MSVC, GCC, Qt, etc.)
-1) Java (Android SDK)
-1) Assembler (x86, AVR)
-1) IEC 61131-3 (industrial controllers)
-1) Python
-1) PHP
-1) C #
-1) and other languages
+* Object Pascal (Lazarus, Delphi)
+* C ++ (MSVC, GCC, Qt, etc.)
+* Java (Android SDK)
+* Assembler (x86, AVR)
+* IEC 61131-3 (industrial controllers)
+* Python
+* PHP
+* C #
+* and other languages
 
 # Experience with technology:
 
