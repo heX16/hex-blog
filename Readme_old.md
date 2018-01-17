@@ -1,14 +1,3 @@
-
-## Сайт программиста heXor
-
-## Движок сайта
-
-Используется мультиязычный темплейт для *Jekyll*.
-
-Форкнут отсюда: https://github.com/sylvaindurand/jekyll-multilingual
-
-
-
 # Multilingual Jekyll
 
 This repository aims to show how to get a minimal multilingual *Jekyll* website.
