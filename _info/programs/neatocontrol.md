@@ -1,5 +1,6 @@
 ---
-description: NeatoControl - управление роботом-пылесосом
+title: NeatoControl
+description: управление роботом-пылесосом
 lang: ru
 ---
 

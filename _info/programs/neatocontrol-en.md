@@ -1,5 +1,6 @@
 ---
-description: NeatoControl - control of the a vacuum cleaner robot
+title: NeatoControl
+description: control of the a vacuum cleaner robot
 lang: en
 ---
 

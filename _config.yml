@@ -22,8 +22,8 @@ collections:
   info:
     # permalink explain:
     #  https://jekyllrb.com/docs/collections/#template-variables
-    #  path to file "_info/programs/myprogram.md", config is "/pages/:path/", result: "./pages/programs/myprogram.html
-    permalink: "/pages/:path/"
+    #  path to file "_info/programs/myprogram.md", config is "/pages/:path", result: "./pages/programs/myprogram.html
+    permalink: "/pages/:path"
     output: true
 
 # default value for pages
