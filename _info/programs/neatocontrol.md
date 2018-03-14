@@ -30,9 +30,9 @@ NeatoControl - управление роботом
 Скриншоты
 ---------
 
-[![](/_media/programs/1.png?w=90&h=65&tok=069583)](/_media/programs/1.png)
-[![](/_media/programs/2.png?w=119&h=87&tok=e7d5c0)](/_media/programs/2.png)
-[![](/_media/programs/3.png?w=90&h=65&tok=3d3d7a)](/_media/programs/3.png)
+![Screenshot1]({{ "/images/programs/neato/1.png" | absolute_url }})
+![Screenshot2]({{ "/images/programs/neato/2.png" | absolute_url }})
+![Screenshot3]({{ "/images/programs/neato/3.png" | absolute_url }})
 
 Известные проблемы и их решение
 -------------------------------
