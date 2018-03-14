@@ -8,7 +8,8 @@ lang: en
 
   <h1 class="page-heading">Pages:</h1>
   <ul class="post-list">
-    {% comment # assign pageslist=site.info | where:"lang", page.lang %}
+    {% comment }{% # assign pageslist=site.info | where:"lang", page.lang %}
+    {% endcomment %}
     {% for item in pageslist %}
       <h2><a class="post-link" href="{{ item.url }}">{{ item.title }}</a></h2>
       <p>{{ item.description }}</p>

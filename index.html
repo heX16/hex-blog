@@ -16,7 +16,8 @@ lang: ru
 
   <h1 class="page-heading">Посты:</h1>
   <ul class="post-list">
-    {% assign posts=site.posts | where:"lang", page.lang %}
+    {% comment }{% # assign pageslist=site.info | where:"lang", page.lang %}
+    {% endcomment %}
     {% for post in posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
