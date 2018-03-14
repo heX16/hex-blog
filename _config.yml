@@ -9,9 +9,11 @@
 title:
   ru: heX - добро пожаловать в блог программиста
   en: heX - welcome to the blog of the programmer
+
 #description: # (in footer)
 #  en: Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 #  fr: Écrivez une super description de votre nouveau site ici. Vous pouvez modifier cette ligne dans _config.yml. Elle apparaîtra dans la balise meta description (pour les résultats sur Google) et dans le fil RSS feed.xml.
+
 index: # main page
   ru: index.html
   en: index-en.html
@@ -19,17 +21,30 @@ feed: # RSS
   ru: /feed.xml
   en: /feed-en.xml
 
+# https://jekyllrb.com/docs/collections
 collections:
   pages:
-    permalink: "/:pages/:path/"
+    # permalink: "/:pages/:path/"
     output: true
+
+# default value for pages
+#---
+#layout: page
+#---
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
 
 # Site system settings
 baseurl: "" # - empty. the subpath of your site, e.g. /blog
 timezone: Europe/Moscow
-
 url: "http://hex.name" # the base hostname & protocol for your site
 
+# account
 # twitter_username: hex1625616
 github_username: hex16
 email: hex1625616@gmail.com
