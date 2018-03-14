@@ -6,8 +6,15 @@ lang: ru
 
 <div class="home">
 
-  <h1 class="page-heading">Посты</h1>
+  <h1 class="page-heading">Страницы:</h1>
+  <ul class="post-list">
+    {% for item in site.info %}
+      <h2><a class="post-link" href="{{ item.url }}">{{ item.title }}</a></h2>
+      <p>{{ item.description }}</p>
+    {% endfor %}
+  </ul>
 
+  <h1 class="page-heading">Посты:</h1>
   <ul class="post-list">
     {% assign posts=site.posts | where:"lang", page.lang %}
     {% for post in posts %}

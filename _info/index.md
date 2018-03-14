@@ -1,6 +1,7 @@
 ---
 title: Index
 description: List of all pages
+lang: ru
 ---
 
 {% for item in site.info %}
