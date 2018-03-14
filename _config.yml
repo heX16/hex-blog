@@ -19,6 +19,11 @@ feed: # RSS
   ru: /feed.xml
   en: /feed-en.xml
 
+collections:
+  pages:
+    permalink: "/:pages/:path/"
+    output: true
+
 # Site system settings
 baseurl: "" # - empty. the subpath of your site, e.g. /blog
 timezone: Europe/Moscow
