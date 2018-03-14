@@ -24,7 +24,11 @@ feed: # RSS
 # https://jekyllrb.com/docs/collections
 collections:
   pages:
-    # permalink: "/:pages/:path/"
+    # permalink explain:
+    #  ":collection"-> collection name (for example: "pages")
+    #  ":path"-> path in collection exclude file name (for example: "programs")
+    #  path to file "_pages/programs/myprogram.md", result: "./pages/programs/myprogram.html
+    permalink: "/:collection/:path/"
     output: true
 
 # default value for pages

@@ -1,6 +1,6 @@
 ---
 title: Collections test
-layout: page
+description: just test page
 permalink: /pages/test.html
 ---
 
