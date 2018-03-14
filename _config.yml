@@ -1,9 +1,4 @@
 # Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site text constant (and localization settings)
 title:
@@ -17,6 +12,7 @@ title:
 index: # main page
   ru: index.html
   en: index-en.html
+
 feed: # RSS
   ru: /feed.xml
   en: /feed-en.xml
@@ -37,10 +33,9 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: pages
+      type: info
     values:
       layout: page
-
 
 # Site system settings
 baseurl: "" # - empty. the subpath of your site, e.g. /blog
